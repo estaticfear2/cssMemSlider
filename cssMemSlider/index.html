@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Mem Slider</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="page-header">
+    <h1 class="page-header__title">Css Mem Slider</h1>
+  </header>
+
+  <main class="slider">
+
+    <input class="slider__input" type="radio" name="slides" id="slide1" checked>
+    <input class="slider__input" type="radio" name="slides" id="slide2">
+    <input class="slider__input" type="radio" name="slides" id="slide3">
+    <input class="slider__input" type="radio" name="slides" id="slide4">
+
+    <ul class="slider__list">
+      <li class="slider__item">
+        <img class="slider__img" src="./img/image-1.jpg" alt="Image 1">
+      </li>
+      <li class="slider__item">
+        <img class="slider__img" src="./img/image-2.jpg" alt="Image 2">
+      </li>
+      <li class="slider__item">
+        <img class="slider__img" src="./img/image-3.jpg" alt="Image 3">
+      </li>
+      <li class="slider__item">
+        <img class="slider__img" src="./img/image-4.jpg" alt="Image 4">
+      </li>
+    </ul>
+
+    <div class="slider__controls">
+      <label class="slider__toggle" for="slide1"></label>
+      <label class="slider__toggle" for="slide2"></label>
+      <label class="slider__toggle" for="slide3"></label>
+      <label class="slider__toggle" for="slide4"></label>
+    </div>
+
+    <div class="slider__caption-list">
+      <p class="slider__caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, culpa?</p>
+      <p class="slider__caption">Lorem ipsum dolor, sit amet.</p>
+      <p class="slider__caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, minima! Ipsum molestiae iusto iure provident sed?</p>
+      <p class="slider__caption">Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Adipisci!</p>
+    </div>
+    
+  </main>
+</body>
+</html>
